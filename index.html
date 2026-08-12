@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Lo de Buddy - Empanadas tucumanas caseras. Pedidos por WhatsApp.">
+<title>Lo de Buddy | Empanadas Tucumanas</title>
+<style>
+:root{--brown:#4a2c20;--cream:#fff8ed;--gold:#d89b45;--text:#2b1b14;--soft:#f4e2c8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:var(--text);background:var(--cream)}
+nav{position:sticky;top:0;z-index:10;background:rgba(74,44,32,.97);display:flex;justify-content:center;gap:25px;padding:14px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-weight:bold}
+.hero{min-height:82vh;background:linear-gradient(rgba(40,23,16,.55),rgba(40,23,16,.68)),url("fotos/portada.jpg") center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;padding:30px}
+.hero-box{max-width:760px}.hero h1{font-size:clamp(3rem,10vw,6rem);margin:0 0 10px}.hero p{font-size:1.35rem;margin:0 0 30px}
+.btn{display:inline-block;background:var(--gold);color:white;text-decoration:none;padding:15px 25px;border-radius:30px;font-weight:bold;margin:5px}
+section{max-width:1100px;margin:auto;padding:70px 20px}.title{text-align:center;color:var(--brown);font-size:2.2rem;margin:0 0 38px}
+.menu{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}.card{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 6px 20px #4a2c2018}
+.card img{width:100%;height:190px;object-fit:cover;background:#ead7bd}.card-content{padding:20px}.card h3{margin:0 0 8px;color:var(--brown)}.card p{margin:0;color:#765c4d;line-height:1.5}
+.prices{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.price{background:var(--brown);color:#fff;text-align:center;border-radius:20px;padding:28px}.price strong{display:block;color:#ffd28d;font-size:2rem;margin-top:8px}
+.about{background:var(--soft);border-radius:25px;text-align:center;padding:45px 25px;line-height:1.7}
+.cta{text-align:center;background:var(--brown);color:#fff;border-radius:25px;padding:50px 20px}.cta h2{color:#ffd28d;margin-top:0}
+footer{background:var(--brown);color:#fff;text-align:center;padding:30px 20px}.small{font-size:.9rem;opacity:.8}
+@media(max-width:650px){.prices{grid-template-columns:1fr}.hero{min-height:72vh}section{padding:50px 16px}}
+</style>
+</head>
+<body>
+<nav>
+<a href="#inicio">Inicio</a><a href="#variedades">Variedades</a><a href="#precios">Precios</a><a href="#contacto">Pedidos</a>
+</nav>
+
+<header id="inicio" class="hero">
+<div class="hero-box">
+<h1>Lo de Buddy</h1>
+<p>By Tucumaneando · Empanadas tucumanas, caseras y hechas con mucho sabor 🥟</p>
+<a class="btn" href="#variedades">Ver variedades</a>
+<a class="btn" href="https://wa.me/543812181235?text=Hola%20Lo%20de%20Buddy!%20Quiero%20hacer%20un%20pedido." target="_blank">Hacer pedido</a>
+</div>
+</header>
+
+<section id="variedades">
+<h2 class="title">Nuestras variedades</h2>
+<div class="menu">
+<div class="card"><img src="fotos/carne.jpg" alt="Empanada de carne cortada a cuchillo"><div class="card-content"><h3>Carne cortada a cuchillo</h3><p>El clásico tucumano, con carne cortada a cuchillo.</p></div></div>
+<div class="card"><img src="fotos/jamon-y-queso.jpg" alt="Empanada de jamón y queso"><div class="card-content"><h3>Jamón y queso</h3><p>Clásica, cremosa y abundante.</p></div></div>
+<div class="card"><img src="fotos/ternera-y-muzzarella.jpg" alt="Empanada de ternera y muzzarella"><div class="card-content"><h3>Ternera y muzzarella</h3><p>Ternera con salsa y muzzarella.</p></div></div>
+<div class="card"><img src="fotos/mondongo.jpg" alt="Empanada de mondongo"><div class="card-content"><h3>Mondongo</h3><p>Un sabor bien tucumano y casero.</p></div></div>
+<div class="card"><img src="fotos/pollo.jpg" alt="Empanada de pollo"><div class="card-content"><h3>Pollo</h3><p>Relleno sabroso y bien casero.</p></div></div>
+<div class="card"><img src="fotos/arabe.jpg" alt="Empanada árabe"><div class="card-content"><h3>Árabe</h3><p>Una opción diferente, con todo el sabor de siempre.</p></div></div>
+<div class="card"><img src="fotos/capresse.jpg" alt="Empanada capresse"><div class="card-content"><h3>Capresse</h3><p>Muzzarella, tomate y albahaca.</p></div></div>
+<div class="card"><img src="fotos/dulce.jpg" alt="Empanada dulce"><div class="card-content"><h3>Dulce</h3><p>La versión dulce al estilo cordobés.</p></div></div>
+</div>
+</section>
+
+<section id="precios">
+<h2 class="title">Precios</h2>
+<div class="prices">
+<div class="price">Por unidad<strong>$2.800</strong></div>
+<div class="price">Media docena<strong>$16.000</strong></div>
+<div class="price">Docena<strong>$26.000</strong></div>
+</div>
+</section>
+
+<section>
+<div class="about">
+<h2 class="title">Hechas para disfrutar</h2>
+<p>En Lo de Buddy hacemos empanadas tucumanas caseras, con distintas variedades para todos los gustos. Elegí tus favoritas, armá tu pedido y disfrutalas en casa.</p>
+</div>
+</section>
+
+<section id="contacto">
+<div class="cta">
+<h2>¿Ya elegiste tus favoritas?</h2>
+<p>Hacé tu pedido directamente por WhatsApp.</p>
+<a class="btn" href="https://wa.me/543812181235?text=Hola%20Lo%20de%20Buddy!%20Quiero%20hacer%20un%20pedido." target="_blank">📲 Pedir por WhatsApp</a>
+<p class="small">WhatsApp: 381 218-1235</p>
+</div>
+</section>
+
+<footer>
+<strong>Lo de Buddy - By Tucumaneando</strong><br>
+<span class="small">Empanadas tucumanas ❤️</span>
+</footer>
+</body>
+</html>
